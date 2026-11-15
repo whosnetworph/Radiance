@@ -46,8 +46,8 @@ local function LoadModule(pathOrUrl)
 end
 
 -- Change these to your raw github urls after upload, or leave as local filenames
-local LIBRARY_SRC = "Library.luau"   -- or "https://raw.githubusercontent.com/whosnetworph/Radiance/main/Library.luau"
-local ESP_SRC     = "ESP.luau"       -- or "https://raw.githubusercontent.com/whosnetworph/Radiance/main/ESP.luau"
+local LIBRARY_SRC = "https://raw.githubusercontent.com/whosnetworph/Radiance/main/Library.luau"
+local ESP_SRC     = "https://raw.githubusercontent.com/whosnetworph/Radiance/main/ESP.luau"
 
 local Library = LoadModule(LIBRARY_SRC)
 local ESP     = LoadModule(ESP_SRC)
